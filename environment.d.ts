@@ -2,7 +2,7 @@ declare global {
   namespace NodeJS {
     interface ProcessEnv {
       PRIVATE_KEY: string;
-      MUMBAI_TESTNET?: string;
+      AMOY_TESTNET?: string;
       POLYGON_MAINNET?: string;
       ETH_MAINNET?: string;
       CONTRACT_ADDRESS: string;
